@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Mason Regular";
+  src: url("../assets/Mason%20Regular.ttf");
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  background: url("../assets/metal_bg.jpg") repeat;
+}
+
+.title {
+  text-align: center;
+  padding: 130px 0 30px 0;
+  font-size: 80px;
+  font-family: 'Mason Regular';
+  z-index: 1;
+  margin: auto;
+  color: gray; /* for browsers that don't support webkit */
+  
+  background: -webkit-linear-gradient(#FFF, #424242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-shadow { /* another html element to show both gradient and shadow */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.bandlist {
+  border-radius: 25px;
+  border: 5px solid rgba(208, 208, 208, .75);
+  width: 56%;
+  margin: 0 auto;
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.band {
+  border-bottom: 1px solid rgba(208, 208, 208, 0.25);
+  height: 42px;
+}
+
+.band-name {
+  float: left;
+  padding-left: 25px;
+  font-family: "Arial";
+  color: white;
+  font-size: 15pt;
+  line-height: 38px;
+}
+
+.band-num {
+  font-size: 20px;
+  line-height: 40px;
+  color: rgb(135, 14, 20);
+}
+
+.band-mentions {
+  float: right;
+  padding-right: 25px;
+  line-height: 26pt;
+  color: white;
+  font-size: 13px;
+  font-family: arial;
+  display: relative;
+}
