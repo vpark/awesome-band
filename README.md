@@ -1,18 +1,3 @@
-# Coding Exercise for Front-End Developer candidates
-
-## Introduction
-
-This exercise is intended to help the hiring team at Mass Relevance to gauge your level of front-end coding experience (HTML, CSS & JavaScript).
-
-You should budget about an hour of actual coding time to complete the project. We realize that's a tight constraint, but we're trying to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities, although you're not necessarily expected to fully finish in an hour. We'd much rather review high-quality but incomplete work rather than rushed, but complete work.
-
-We've created a few starter files that you should flesh out:
-
-* [index.html](index.html)
-* [style.css](css/style.css)
-* [script.js](js/script.js)
-
-and a [PSD](AwesomeBands.psd) to use as a mockup.
 
 ## Requirements
 
@@ -29,7 +14,3 @@ The leaderboard that you build should satisfy these basic requirements:
 * **Bonus:** Animate the leaderboard update in some way (fade/dissolve, sliding, etc.).
 
 When you're finished, please send your work your Mass Relevance dev contact as a .zip file or (preferably) a link to a public repo on GitHub.
-
-## Questions?
-
-Please use your best judgment to interpret the requirements above. However, if you're stuck with a question(s), feel free to email your Mass Relevance dev contact. There are no bad questions (other than, "What does JavaScript mean?").
